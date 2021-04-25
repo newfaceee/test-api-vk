@@ -1,0 +1,25 @@
+.video {
+    position: relative;
+    &__preview {
+        display: block;
+        max-width: 100%;
+        cursor: pointer;
+        filter: brightness(0.4);
+        margin-bottom: 5px;
+        &:last-child {
+            margin-bottom: 0px;
+        }
+    }
+    &__arrow-right {
+        cursor: pointer;
+        left: calc(50% - 15px);
+        top: calc(50% - 30px);
+        position: absolute;
+        width: 0; 
+        height: 0; 
+        border-top: 30px solid transparent;
+        border-bottom: 30px solid transparent;
+        
+        border-left: 30px solid #fff;
+    }
+}

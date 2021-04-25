@@ -1,0 +1,11 @@
+.chip {
+    padding: 5px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    &:last-child {
+        margin-right: 0;
+    }
+}
