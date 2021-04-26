@@ -40,7 +40,6 @@ const App = () => {
   const latitude = useSelector(postsLatitudeSelector);
   const longitude = useSelector(postsLongitudeSelector);
   const loggedIn = useSelector(loggedInSelector);
-  console.log(loggedIn);
 
   const lastSearchedValue = useRef(null);
 
